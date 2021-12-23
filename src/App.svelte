@@ -307,7 +307,7 @@
     </a>
 
     <!-- svelte-ignore a11y-missing-attribute -->
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
+    <!--<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navmenu">
       <span aria-hidden="true" />
       <span aria-hidden="true" />
       <span aria-hidden="true" />
@@ -318,7 +318,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <!-- svelte-ignore a11y-missing-attribute -->
+          <!-- svelte-ignore a11y-missing-attribute --><!--
           {#if connected}
             <a class="button is-info is-light" disabled>
               {#if heartbeat}
@@ -396,7 +396,7 @@
           {:else}
             <a class="button is-danger" disabled>{errorMessage || 'Not connected'}</a>
           {/if}
-          <!-- svelte-ignore a11y-missing-attribute -->
+          <!-- svelte-ignore a11y-missing-attribute --><!--
           <a class:is-light={!isFullScreen} class="button is-link" on:click={toggleFullScreen} title="Toggle Fullscreen">
             <span class="icon">
               <Icon path={isFullScreen ? mdiFullscreenExit : mdiFullscreen} />
@@ -404,7 +404,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </nav>
 
