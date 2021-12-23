@@ -13,7 +13,7 @@
     </div>
   {/if}
   <div class="column">
-    <img id="program" alt="Program" class="is-hidden"/>
+    <!--<img id="program" alt="Program" class="is-hidden"/>-->
   </div>
 </div>
 
